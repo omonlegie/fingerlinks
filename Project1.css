@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.logo {
+    margin-right: 20px;
+}
+
+nav a {
+    margin-left: 65px;
+    text-decoration: none;
+    color: black;
+}
+.btn {
+    padding: 2px 8px;
+    border-radius: 5px;
+    border-color: green;
+    margin-left: 10px;
+    background-color: white;
+}
+.main {
+    margin-left: 140px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+div button {
+    padding: 1px 5px;
+    border-radius: 2px;
+    border-color: green;
+    background-color: green;
+    color: white;
+}
+div.rightmain iframe {
+    margin-left: 800px;
+    margin-top: -450px;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
